@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+<link rel="stylesheet" href="Customer.css" />
+<header>
+    <div class="wrapper">
+        <ul class="nav-area">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Cus_transaction.html">Customer</a></li>
+        </ul>
+    </div>
+</header>
+<title>
+    IndoSing-Sparks Union Bank
+</title>
+</head>
+<body>
+    <div class="contain">
+    <h1 class="heading">Welcome to the IndoSing-Sparks Union Bank</h1>
+    </div>
+    
+       <button class="show-modal">SEND MONEY</button>
+    <div class="modal hidden">
+       <button class="close-modal">&times;</button>
+        <form id="money">
+        <h2 class="transf">Transfer Money</h2>
+        <label for="uname"><b>Name</b></label>
+        <input type="text" placeholder="Enter name" name="username" required>
+        <label for="uemail"><b>Email Id</b></label>
+        <input type="text" placeholder="Enter Email" name="email" required>
+
+        <label for="umoney"><b>Money</b></label>
+        <input type="text" placeholder="Rupees" name="umoney" required>
+        <button type="button_send" class="send">Send Money</button>
+        <button type="button_cancel" class="cancelbtn">Cancel</button>
+        </form>
+    </div>
+    <div class="overlay hidden"></div>
+       <button
+       class="button2" >SEE ALL TRANSACTIONS</button>
+    <script src="customer.js"></script>
+    <table id="customers">
+        <tr>
+            <th>SI.No</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Bank Balance(in $)</th>
+        </tr>
+         <tr>
+             <td>1.</td>
+             <td>David</td>
+             <td>davidwarner@gmail.com</td>
+             <td>35000</td>
+         </tr>
+         <tr>
+            <td>2.</td>
+            <td>Kane</td>
+            <td>kaneWil@gmail.com</td>
+            <td>321430</td>
+        </tr>
+        <tr>
+            <td>3.</td>
+            <td>Rakesh</td>
+            <td>rakeshshas@gmail.com</td>
+            <td>30000</td>
+        </tr>
+        <tr>
+            <td>4.</td>
+            <td>Virat</td>
+            <td>viratk@gmail.com</td>
+            <td>32045</td>
+        </tr>
+        <tr>
+            <td>5.</td>
+            <td>Manoj</td>
+            <td>manojt@gmail.com</td>
+            <td>94557</td>
+        </tr>
+        <tr>
+            <td>6.</td>
+            <td>shrelekha</td>
+            <td>shrelekha@gmail.com</td>
+            <td>23410</td>
+        </tr>
+        <tr>
+            <td>7.</td>
+            <td>Rajnisha</td>
+            <td>rajnsha12@gmail.com</td>
+            <td>436402</td>
+        </tr>
+        <tr>
+            <td>8.</td>
+            <td>Lysia Tom</td>
+            <td>lysiatom@gmail.com</td>
+            <td>62000</td>
+        </tr>
+        <tr>
+            <td>9.</td>
+            <td>Maggie</td>
+            <td>maggiemin24@gmail.com</td>
+            <td>920132</td>
+        </tr>
+        <tr>
+            <td>10.</td>
+            <td>Adam Gill</td>
+            <td>adamgill@gmail.com</td>
+            <td>13040</td>
+        </tr>
+    </table>
+</body>
+</html>

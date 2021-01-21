@@ -1,0 +1,124 @@
+
+.home{
+
+	
+	min-height: 735px;
+	padding-right: 0px; 
+     padding-left: 0px; 
+}
+
+.block{
+
+	min-height: 650px;
+	margin-bottom: 3%;
+	padding-right: 0px; 
+     padding-left: 0px; 
+     border-radius: 10px;
+     overflow: hidden;
+
+
+}
+.part{
+min-height: 500px;
+
+}
+
+#left{
+
+	background-color:#031634;
+}
+
+#right{
+background-color:#033649;
+}
+
+.car{
+	/*background-color: rgba(50,0,105,0.5);
+*/
+
+background: white;}
+
+#screen{
+
+	background-image: url("../images/q.jpg");
+	background-size: cover;
+	height:630px;
+	vertical-align: center;
+	position: relative;
+
+}
+
+.o{
+	margin:30px auto;
+	font-size: 130%;
+	font-weight: bold;
+	color:white;
+}
+.zo{
+background-color: #008732
+
+}
+
+.zo:hover{
+background-color: #00A735
+
+}
+
+body{
+	position: relative;
+}
+.port{
+	text-align: center;
+	align-content: center;
+	display: none;
+	
+}
+
+.navbar{
+	opacity: 0.89;
+}
+
+.navbar:hover{
+
+    opacity: 1 ;
+}
+
+
+.nav-link{
+
+	font-size: 140%;
+	margin-left: 10px;
+	color:#008732;
+	font-family: 'Montserrat', sans-serif;
+
+
+
+}
+
+.nav-link:hover{
+
+
+	color:#00cc32;
+}
+
+
+.input{
+
+
+	color:#036564;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.ads{
+
+	color:white;font-size: 300%;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.font{
+	font-family: 'Montserrat', sans-serif;
+	background: none;
+	border-bottom: 1.5px solid #111;
+	border-top:none;
+
+}
